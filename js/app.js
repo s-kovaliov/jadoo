@@ -3261,7 +3261,8 @@
         content: ongoing,
         allowHTML: true,
         interactive: true,
-        arrow: false
+        arrow: false,
+        zIndex: 4
     });
     function ssr_window_esm_isObject(obj) {
         return obj !== null && typeof obj === "object" && "constructor" in obj && obj.constructor === Object;
